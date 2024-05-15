@@ -94,7 +94,14 @@ const Contacts = () => {
                 onClick={() => handleSelect(user)}
               >
                 {selectedContacts.find((item) => item === user) ? (
-                  <CheckCircle sx={{ color: "red", position: "absolute", top: "50%", left:"50%" }} />
+                  <CheckCircle
+                    sx={{
+                      color: "red",
+                      position: "absolute",
+                      top: "50%",
+                      left: "50%",
+                    }}
+                  />
                 ) : (
                   <></>
                 )}
