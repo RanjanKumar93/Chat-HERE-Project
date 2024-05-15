@@ -1,7 +1,7 @@
 "use client";
 
 import Loader from "@components/Loader";
-import { GroupOutlined, PersonOutline } from "@mui/icons-material";
+import { GroupOutlined } from "@mui/icons-material";
 import { CldUploadButton } from "next-cloudinary";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -99,8 +99,8 @@ const GroupInfo = () => {
           />
           <CldUploadButton
             options={{ maxFiles: 1 }}
-            onUpload={uploadPhoto}
-            uploadPreset="upecg01j"
+            onSuccess={uploadPhoto}
+            uploadPreset="endurgkr"
           >
             <p className="text-body-bold">Upload new photo</p>
           </CldUploadButton>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useSession } from "next-auth/react";
-import { use, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import ChatBox from "./ChatBox";
 import Loader from "./Loader";
 import { pusherClient } from "@lib/pusher";

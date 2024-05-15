@@ -2,7 +2,7 @@
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import Loader from "./Loader";
-import { CheckCircle, RadioButtonUnchecked } from "@mui/icons-material";
+import { CheckCircle } from "@mui/icons-material";
 import { useRouter } from "next/navigation";
 
 const Contacts = () => {
